@@ -1,0 +1,18 @@
+div.post_it {
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    word-wrap: break-word;
+    overflow: hidden;
+    position: absolute;
+}
+div.post_it_header {
+    height: 24px;
+    width: 100%;
+    cursor: move;
+}
+button.delete {
+    height: 24px;
+    width: 24px;
+    float: right;
+}
